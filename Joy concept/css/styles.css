@@ -1,0 +1,134 @@
+.clogo {
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    background-color: black;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 150%;
+}
+
+.clogo .imglogo {
+    height: 80px;
+    width: 80px;
+
+}
+
+.navegacion {
+    background-color: black;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: #f8da45;
+    gap: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.navegacion ul {
+    margin-top: 16px;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.contenedor-imagenes {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-imagenes .imagenes {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-imagenes .imagenes img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.container {
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    
+}
+
+.contact-info, .social-media, .copyright {
+    flex: 1;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.social-media a {
+    color: #000000;
+    margin: 0 10px 0 0;;
+    font-size: 24px;
+    font-weight: bold
+    
+    
+}
+
+.cajaP{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Crea columnas automáticas */
+    gap: 10px; /* Espacio entre imágenes */
+    background-color: #000000;
+    padding: 20px;
+    overflow-x: hidden; /* Evita desplazamiento horizontal */
+    overflow-y: auto; /* Activa el desplazamiento vertical si es necesario */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+/* Estilos para el contenedor de cada imagen y texto */
+.image-container {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin: 10px; /* Espacio entre cada imagen y texto */
+    margin-left: 1px;
+    gap: 5px;
+    
+  
+   
+    
+    
+    
+    
+}
+
+/* Estilos para la imagen */
+.image {
+    width: auto;
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    flex-wrap: wrap;
+}
+
+/* Estilos para el texto debajo de la imagen */
+.text {
+    font-size: 18px; /* Tamaño de fuente del texto */
+    margin-top: 10px; /* Espacio superior entre la imagen y el texto */
+    color:aliceblue;
+}
+
+body {
+    
+    overflow-x: hidden; /* Ocultar el desbordamiento horizontal si lo hay */
+    background-color: #f8da45;
+}
+
+
+

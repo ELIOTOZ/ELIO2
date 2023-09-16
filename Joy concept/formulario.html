@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesf.css">
+    <title>Formulario</title>
+    <header class="clogo">
+        <img src="media/logoc.jpg" alt="logo joy concept" class="imglogo">
+        <div class="subrayado">
+            <h2>JOY CONCEPT</h2>
+
+        </div>
+        <div class="Volver">
+            <ul>
+                <a href="index.html">Volver</a>
+            </ul>
+        </div>
+
+    </header>
+
+</head>
+
+<body>
+
+    <center>
+        <h3>¡Ingresa estos sencillos datos y en el menor tiempo posible te daremos respuesta!</h3>
+    </center>
+    <div class="contenedor">
+
+        <form>
+            <fieldset>
+                <legend id="titulo"> Formulario de contacto</legend>
+                </legend>
+                <label for="Seleccione_Tipo_de_documento">Seleccione el tipo de requerimiento: </label>
+                <select id="Seleccione_Tipo_de_documento" name="documento">
+                    <option value=""></option>
+                    <option value="CC">Solicitud</option>
+                    <option value="TI">Queja</option>
+                    <option value="CE">Reembolso</option>
+                </select>
+                <p><label>Nombres y Apellidos: <input type="text" name="Identificacion" size="25"></label></p>
+                <p><label>Correo electrónico: <input type="text" name="apellido" size="25"></label></p>
+                <p><label>Celular: <input type="text" name="apellido" size="25"></label></p>
+                <input type="checkbox" id="opcion1" name="preferencia1" value="Opción 1"> Aceptas la política de
+                privacidad.<br><br>
+
+                <label for="imagen">Si deseas subir la foto del producto puedes hacerlo aquí</label>
+                <input type="file" id="imagen" name="imagen" accept="image/*">
+
+            </fieldset>
+
+            
+            <button onclick="enviar(); mostrarPopup();">Enviar</button>
+            <input type="reset" value="Borrar">
+
+
+        </form>
+        </fieldset>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="contact-info">
+                <p>Contacto: contacto@joyconcept.com | Teléfono: (604) 414 0147</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/p/Nero-concept-100063501072781/" target="_blank">Facebook<i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank">Twitter<i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/neroconcept/?hl=es" target="_blank">Instagram<i
+                        class="fab fa-instagram"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Joy Concept. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
